@@ -1,4 +1,4 @@
-## Day 3 Task: Basic Linux Commands
+## Day 3 Task:Basic Linux Commands Exercise
 
 **Objective**: Familiarize yourself with basic Linux commands.
 
