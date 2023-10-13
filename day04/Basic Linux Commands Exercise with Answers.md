@@ -1,4 +1,4 @@
-## Day 3 Basic Linux Commands Exercise with Answers
+## Day04: Basic Linux Commands Exercise with Answers
 
 **Objective**: Familiarize yourself with basic Linux commands.
 
