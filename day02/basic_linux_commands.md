@@ -1,41 +1,155 @@
-## Basic linux commands
 
-### Listing commands
-```ls option_flag arguments ```--> list the sub directories and files avaiable in the present directory
+## Basic Linux Commands Documentation
 
-Examples:
+### 1. **ls**
+   - **Description**: List files and directories in the current directory.
+   - **Usage**: 
+     ```
+     ls [options] [directory]
+     ```
+   - **Options**:
+     - `-l`: Detailed listing.
+     - `-a`: Show hidden files.
+     - `-h`: Human-readable file sizes.
 
-- ``` ls -l ```--> list the files and directories in long list format with extra information
-- ```ls -a ```--> list all including hidden files and directory
-- ```ls *.sh``` --> list all the files having .sh extension.
+### 2. **pwd**
+   - **Description**: Print the current working directory.
+   - **Usage**:
+     ```
+     pwd
+     ```
 
-- ```ls -i ``` --> list the files and directories with index numbers inodes
-- ``` ls -d */``` --> list only directories.(we can also specify a pattern)
+### 3. **cd**
+   - **Description**: Change the current directory.
+   - **Usage**:
+     ```
+     cd /path/to/directory
+     ```
 
-### Directoy commands
-- ```pwd``` --> print work directory. Gives the present working directory.
+### 4. **mkdir**
+   - **Description**: Create a new directory.
+   - **Usage**:
+     ```
+     mkdir directory_name
+     ```
 
-- ```cd path_to_directory``` --> change directory to the provided path
+### 5. **touch**
+   - **Description**: Create an empty file.
+   - **Usage**:
+     ```
+     touch file_name
+     ```
 
-- ```cd ~ ``` or just  ```cd ``` --> change directory to the home directory
+### 6. **cp**
+   - **Description**: Copy files or directories.
+   - **Usage**:
+     ```
+     cp source_file destination_directory
+     ```
+   - **Options**:
+     - `-r`: Copy directories recursively.
 
-- ``` cd - ``` --> Go to the last working directory.
+### 7. **mv**
+   - **Description**: Move or rename files or directories.
+   - **Usage**:
+     ```
+     mv source_file destination
+     ```
 
-- ``` cd ..``` --> change directory to one step back.
+### 8. **rm**
+   - **Description**: Remove files or directories.
+   - **Usage**:
+     ```
+     rm file_name
+     ```
+   - **Options**:
+     - `-r`: Remove directories recursively.
 
-- ``` cd ../..``` --> Change directory to 2 levels back.
+### 9. **cat**
+   - **Description**: Display the contents of a file.
+   - **Usage**:
+     ```
+     cat file_name
+     ```
 
-- ``` mkdir  directoryName``` --> to make a directory in a specific location
+### 10. **more** and **less**
+   - **Description**: Display file contents one screen at a time.
+   - **Usage**:
+     ```
+     more file_name
+     less file_name
+     ```
 
-Examples:
-```
-mkdir newFolder              # make a new folder 'newFolder'
+### 11. **head** and **tail**
+   - **Description**: Display the beginning or end of a file.
+   - **Usage**:
+     ```
+     head file_name
+     tail file_name
+     ```
 
-mkdir .NewFolder              # make a hidden directory (also . before a file to make it hidden)
+### 12. **grep**
+   - **Description**: Search for text in files using patterns.
+   - **Usage**:
+     ```
+     grep "pattern" file_name
+     ```
 
-mkdir A B C D                  #make multiple directories at the same time
+### 13. **chmod**
+   - **Description**: Change file permissions.
+   - **Usage**:
+     ```
+     chmod permissions file_name
+     ```
 
-mkdir /home/user/Mydirectory   # make a new folder in a specific location
+### 14. **ps**
+   - **Description**: List running processes.
+   - **Usage**:
+     ```
+     ps
+     ```
 
-mkdir -p  A/B/C/D              # make a nested directory
-```
+### 15. **kill**
+   - **Description**: Terminate processes.
+   - **Usage**:
+     ```
+     kill PID
+     ```
+
+### 16. **man**
+   - **Description**: Access the manual pages for commands.
+   - **Usage**:
+     ```
+     man command_name
+     ```
+
+### 17. **df**
+   - **Description**: Display disk space usage.
+   - **Usage**:
+     ```
+     df
+     ```
+
+### 18. **du**
+   - **Description**: Display file and directory space usage.
+   - **Usage**:
+     ```
+     du
+     ```
+
+### 19. **tar**
+   - **Description**: Archive and compress files.
+   - **Usage**:
+     ```
+     tar options archive_name files/directories
+     ```
+   - **Options**:
+     - `-c`: Create a new archive.
+     - `-z`: Compress the archive using gzip.
+
+### 20. **wget**
+   - **Description**: Download files from the internet.
+   - **Usage**:
+     ```
+     wget URL
+     ```
